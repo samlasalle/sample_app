@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Tutorial
 This is the sample application for
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](http://www.railstutorial.org/)
@@ -25,9 +25,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
-RUBY ON RAILS TUTORIAL
-
-CH 1 From zero to deploy
+## CH 1 From zero to deploy
 
 default rails project structure:
 app/          core code (incl. models, views, controllers, helpers)
@@ -53,7 +51,7 @@ config.ru     config for Rack middleware
 
 still to do: think about deployment. heroku is one good option.
 
-CH 2 A toy app
+## CH 2 A toy app
 
 - scaffold generators are good
 rails _5.1.4_ new toy_app
@@ -101,6 +99,6 @@ Weaknesses with scaffolding:
 - REST = REpresentational State Transfer
   - in ruby, apply CRUD ops to resources
 
-further reading:
+## Further reading:
 - 'learn enough to be dangerous' tutorials
 - tutorials.railsapps.org - topic-specific rails projects/tutorials
